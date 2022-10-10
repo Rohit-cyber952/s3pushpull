@@ -11,7 +11,7 @@ pipeline {
         stage('deploy to S3'){
             steps{
                sh 'aws s3 cp . s3://rohitverma1111 --recursive'
-               sh 'aws s3 cp s3://roitverma1111/hello.txt copy/.'
+               sh 'aws s3 cp s3://rohitverma1111/hello.txt copy/.'
 
             }
         }
