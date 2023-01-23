@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    token: 'abc123'
 
     stages{
         stage ('check dir abd make dir'){
